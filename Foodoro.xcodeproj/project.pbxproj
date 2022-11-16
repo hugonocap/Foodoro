@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D959923229257F22006BE1CD /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D959923129257F22006BE1CD /* SearchBar.swift */; };
 		D9EFE8B4292570CF005F721D /* FoodoroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EFE8B3292570CF005F721D /* FoodoroApp.swift */; };
 		D9EFE8B6292570CF005F721D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EFE8B5292570CF005F721D /* HomeView.swift */; };
 		D9EFE8B8292570D0005F721D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9EFE8B7292570D0005F721D /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D959923129257F22006BE1CD /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		D9EFE8B0292570CF005F721D /* Foodoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9EFE8B3292570CF005F721D /* FoodoroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodoroApp.swift; sourceTree = "<group>"; };
 		D9EFE8B5292570CF005F721D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			children = (
 				D9EFE8B5292570CF005F721D /* HomeView.swift */,
 				D9EFE8C5292571AA005F721D /* HeaderView.swift */,
+				D959923129257F22006BE1CD /* SearchBar.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9EFE8B6292570CF005F721D /* HomeView.swift in Sources */,
+				D959923229257F22006BE1CD /* SearchBar.swift in Sources */,
 				D9EFE8C6292571AA005F721D /* HeaderView.swift in Sources */,
 				D9EFE8B4292570CF005F721D /* FoodoroApp.swift in Sources */,
 			);

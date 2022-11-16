@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct HomeView: View {
+    @State var text: String
     var body: some View {
         VStack {
-            Text("sdsds")
+            HeaderView()
+            SearchBar(text: $text)
+            Spacer()
         }
         .padding()
     }
@@ -18,6 +21,7 @@ struct HomeView: View {
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView()
+        HomeView(text: "")
+            .preferredColorScheme(.dark)
     }
 }
