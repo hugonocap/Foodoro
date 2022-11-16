@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		D9EFE8B4292570CF005F721D /* FoodoroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EFE8B3292570CF005F721D /* FoodoroApp.swift */; };
-		D9EFE8B6292570CF005F721D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EFE8B5292570CF005F721D /* ContentView.swift */; };
+		D9EFE8B6292570CF005F721D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EFE8B5292570CF005F721D /* HomeView.swift */; };
 		D9EFE8B8292570D0005F721D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9EFE8B7292570D0005F721D /* Assets.xcassets */; };
 		D9EFE8BB292570D0005F721D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9EFE8BA292570D0005F721D /* Preview Assets.xcassets */; };
+		D9EFE8C6292571AA005F721D /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EFE8C5292571AA005F721D /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D9EFE8B0292570CF005F721D /* Foodoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9EFE8B3292570CF005F721D /* FoodoroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodoroApp.swift; sourceTree = "<group>"; };
-		D9EFE8B5292570CF005F721D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D9EFE8B5292570CF005F721D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D9EFE8B7292570D0005F721D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9EFE8BA292570D0005F721D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9EFE8C5292571AA005F721D /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,9 @@
 		D9EFE8B2292570CF005F721D /* Foodoro */ = {
 			isa = PBXGroup;
 			children = (
-				D9EFE8B3292570CF005F721D /* FoodoroApp.swift */,
-				D9EFE8B5292570CF005F721D /* ContentView.swift */,
+				D9EFE8C32925713C005F721D /* App */,
+				D9EFE8C229257133005F721D /* Views */,
+				D9EFE8C12925712C005F721D /* Models */,
 				D9EFE8B7292570D0005F721D /* Assets.xcassets */,
 				D9EFE8B9292570D0005F721D /* Preview Content */,
 			);
@@ -65,6 +68,38 @@
 				D9EFE8BA292570D0005F721D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D9EFE8C12925712C005F721D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D9EFE8C229257133005F721D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9EFE8C429257197005F721D /* Home */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D9EFE8C32925713C005F721D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D9EFE8B3292570CF005F721D /* FoodoroApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D9EFE8C429257197005F721D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D9EFE8B5292570CF005F721D /* HomeView.swift */,
+				D9EFE8C5292571AA005F721D /* HeaderView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +172,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9EFE8B6292570CF005F721D /* ContentView.swift in Sources */,
+				D9EFE8B6292570CF005F721D /* HomeView.swift in Sources */,
+				D9EFE8C6292571AA005F721D /* HeaderView.swift in Sources */,
 				D9EFE8B4292570CF005F721D /* FoodoroApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
