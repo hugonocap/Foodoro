@@ -40,6 +40,7 @@ struct DiscountBannerView: View {
                 }
                 
             }
+            .fontDesign(.rounded)
         }
 
     }
