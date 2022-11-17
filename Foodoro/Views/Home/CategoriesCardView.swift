@@ -21,6 +21,7 @@ struct CategoriesCardView: View {
                
                 Text(title)
                     .font(.title3)
+                    .foregroundColor(.white)
                     .fontWeight(.bold)
                     .padding(22)
             }
