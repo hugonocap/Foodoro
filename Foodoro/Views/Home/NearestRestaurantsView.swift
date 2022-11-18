@@ -9,12 +9,12 @@ import SwiftUI
 
 struct NearestRestaurantsView: View {
     var body: some View {
-        VStack {
+        VStack(spacing: 30) {
             CarouselComponent(title: "Nearest Restaurants")
                 .padding(.horizontal)
-            
+            NearestRestaurantsCarouselView()
         }
-        
+        .padding(.top)
     }
 }
 

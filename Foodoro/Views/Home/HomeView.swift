@@ -11,15 +11,18 @@ struct HomeView: View {
     @State var text: String
     var body: some View {
         ZStack {
-            VStack {
-                VStack(spacing: 30) {
-                    HeaderView()
-                    SearchBar(text: $text)
-                    DiscountBannerView()
+            ScrollView(showsIndicators: false) {
+                VStack {
+                    VStack(spacing: 30) {
+                        HeaderView()
+                        SearchBar(text: $text)
+                        DiscountBannerView()
+                    }
+                    .padding()
+                    CategoriesView()
+                    NearestRestaurantsView()
+                    Spacer()
                 }
-                .padding()
-                CategoriesView()
-                Spacer()
             }
             
         

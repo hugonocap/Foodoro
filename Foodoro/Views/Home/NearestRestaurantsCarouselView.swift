@@ -8,8 +8,16 @@
 import SwiftUI
 
 struct NearestRestaurantsCarouselView: View {
+    var card: [Restaurants] = RestaurantCard.cards
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack(spacing: 25) {
+                    ForEach(card, id: \.id) { component in
+                        NearestRestaurantsCardView(cardComponent: component)
+                    }
+                }
+                .padding(.leading)
+            }
     }
 }
 
