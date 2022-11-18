@@ -13,6 +13,8 @@
 		D9E4A1732926D37D001ED553 /* CategoriesCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E4A1722926D37D001ED553 /* CategoriesCarouselView.swift */; };
 		D9E4A1752926D3D2001ED553 /* CategoriesCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E4A1742926D3D2001ED553 /* CategoriesCardView.swift */; };
 		D9E944AA2927776B00619E4B /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E944A92927776B00619E4B /* Categories.swift */; };
+		D9E944AE2928110B00619E4B /* NearestRestaurantsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E944AD2928110B00619E4B /* NearestRestaurantsView.swift */; };
+		D9E944B0292811C300619E4B /* NearestRestaurantsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E944AF292811C300619E4B /* NearestRestaurantsCardView.swift */; };
 		D9ECFD742926C90F00C78A98 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ECFD732926C90F00C78A98 /* CategoriesView.swift */; };
 		D9EFE8B4292570CF005F721D /* FoodoroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EFE8B3292570CF005F721D /* FoodoroApp.swift */; };
 		D9EFE8B6292570CF005F721D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EFE8B5292570CF005F721D /* HomeView.swift */; };
@@ -28,6 +30,8 @@
 		D9E4A1722926D37D001ED553 /* CategoriesCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCarouselView.swift; sourceTree = "<group>"; };
 		D9E4A1742926D3D2001ED553 /* CategoriesCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCardView.swift; sourceTree = "<group>"; };
 		D9E944A92927776B00619E4B /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		D9E944AD2928110B00619E4B /* NearestRestaurantsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearestRestaurantsView.swift; sourceTree = "<group>"; };
+		D9E944AF292811C300619E4B /* NearestRestaurantsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearestRestaurantsCardView.swift; sourceTree = "<group>"; };
 		D9ECFD732926C90F00C78A98 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
 		D9EFE8B0292570CF005F721D /* Foodoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9EFE8B3292570CF005F721D /* FoodoroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodoroApp.swift; sourceTree = "<group>"; };
@@ -127,6 +131,8 @@
 				D9ECFD732926C90F00C78A98 /* CategoriesView.swift */,
 				D9E4A1722926D37D001ED553 /* CategoriesCarouselView.swift */,
 				D9E4A1742926D3D2001ED553 /* CategoriesCardView.swift */,
+				D9E944AD2928110B00619E4B /* NearestRestaurantsView.swift */,
+				D9E944AF292811C300619E4B /* NearestRestaurantsCardView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -203,7 +209,9 @@
 			files = (
 				D9EFE8B6292570CF005F721D /* HomeView.swift in Sources */,
 				D959923229257F22006BE1CD /* SearchBar.swift in Sources */,
+				D9E944AE2928110B00619E4B /* NearestRestaurantsView.swift in Sources */,
 				D9ECFD742926C90F00C78A98 /* CategoriesView.swift in Sources */,
+				D9E944B0292811C300619E4B /* NearestRestaurantsCardView.swift in Sources */,
 				D9E4A1752926D3D2001ED553 /* CategoriesCardView.swift in Sources */,
 				D9E4A1712926C9B8001ED553 /* Components.swift in Sources */,
 				D9B856B629261D0E007FA8D0 /* DiscountBannerView.swift in Sources */,
