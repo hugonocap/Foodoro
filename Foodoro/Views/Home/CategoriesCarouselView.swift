@@ -8,11 +8,12 @@
 import SwiftUI
 
 struct CategoriesCarouselView: View {
+    var card: [Categories] = CategoriesCarousel.categoryCard
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 20) {
-                ForEach(0 ..< 5) { _ in
-                    CategoriesCardView(title: "Food & Coffee", imageName: "Food&Coffee", backgroundColor: .orange)
+                ForEach(card, id: \.id) { component in
+                    CategoriesCardView(cardComponent: component)
                 }
             }
             .padding(.horizontal)

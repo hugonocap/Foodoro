@@ -8,29 +8,31 @@
 import SwiftUI
 
 struct CategoriesCardView: View {
-    var title: String
-    var imageName: String
-    var backgroundColor: Color
+    var cardComponent: Categories
     var body: some View {
         ZStack(alignment: .bottomTrailing) {
             ZStack(alignment: .topLeading) {
                 RoundedRectangle(cornerRadius: 20)
                     .frame(width: 200, height: 220)
-                    .foregroundColor(backgroundColor)
+                    .foregroundColor(cardComponent.backgroundColor)
                 
                
-                Text(title)
+                Text(cardComponent.category)
                     .font(.title3)
+                    .frame(width: 130)
                     .foregroundColor(.white)
+                    .lineLimit(2)
                     .fontWeight(.bold)
-                    .padding(22)
+                    .multilineTextAlignment(.leading)
+                    .padding(.leading)
+                    .padding(.top, 30)
             }
         
             
-            Image(imageName)
+            Image(cardComponent.image)
                 .resizable()
                 .scaledToFill()
-                .frame(width: 200, height: 150)
+                .frame(width: 200, height: 130)
                 .offset(x: 50, y: 0)
                 .clipped()
             
@@ -40,9 +42,9 @@ struct CategoriesCardView: View {
     }
 }
 
-struct CategoriesCardView_Previews: PreviewProvider {
-    static var previews: some View {
-        CategoriesCardView(title: "Food & Coffee", imageName: "Food&Coffee", backgroundColor: .orange)
-            .preferredColorScheme(.dark)
-    }
-}
+//struct CategoriesCardView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        CategoriesCardView(cardComponent: Categories(image: , category: <#T##String#>, backgroundColor: <#T##Color#>))
+//            .preferredColorScheme(.dark)
+//    }
+//}
