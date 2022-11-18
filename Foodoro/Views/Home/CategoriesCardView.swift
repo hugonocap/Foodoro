@@ -18,14 +18,12 @@ struct CategoriesCardView: View {
                 
                
                 Text(cardComponent.category)
-                    .font(.title3)
-                    .frame(width: 130)
-                    .foregroundColor(.white)
+                    .padding(22)
+                    .font(.title2)
+                    .frame(width: 200, height: 100, alignment: .topLeading)
                     .lineLimit(2)
-                    .fontWeight(.bold)
                     .multilineTextAlignment(.leading)
-                    .padding(.leading)
-                    .padding(.top, 30)
+                    .fontWeight(.bold)
             }
         
             

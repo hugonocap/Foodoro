@@ -11,13 +11,18 @@ struct HomeView: View {
     @State var text: String
     var body: some View {
         ZStack {
-            VStack(spacing: 30) {
-                HeaderView()
-                SearchBar(text: $text)
-                DiscountBannerView()
+            VStack {
+                VStack(spacing: 30) {
+                    HeaderView()
+                    SearchBar(text: $text)
+                    DiscountBannerView()
+                }
+                .padding()
+                CategoriesView()
                 Spacer()
             }
-            .padding()
+            
+        
         }
         .onTapGesture {
             hideKeyboard()

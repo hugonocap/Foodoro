@@ -27,7 +27,7 @@ struct CategoriesCarousel {
                    backgroundColor: .purple),
         // chocolate
         Categories(image: "Chocolate",
-                   category: "Chocolate And Diary Products",
+                   category: "Chocolate & Diary Products",
                    backgroundColor: .green)
     ]
 }
