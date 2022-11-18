@@ -8,16 +8,17 @@
 import SwiftUI
 
 struct NearestRestaurantsCardView: View {
+    var cardComponent: Restaurants
     var body: some View {
         VStack(spacing: 10) {
             ZStack(alignment: .topTrailing) {
-                Image("Restaurant1")
+                Image(cardComponent.image)
                     .resizable()
                     .scaledToFill()
                     .frame(width: 200, height: 260)
                     .cornerRadius(20)
                 
-                Text("30 Mins Away")
+                Text("\(cardComponent.destination) Mins Away")
                     .font(.caption)
                     .fontWeight(.semibold)
                     .padding(7)
@@ -27,7 +28,7 @@ struct NearestRestaurantsCardView: View {
                 
             }
             HStack {
-                Text("Restaurant Name")
+                Text(cardComponent.name)
                     .lineLimit(1)
                 
                 Spacer()
@@ -36,7 +37,7 @@ struct NearestRestaurantsCardView: View {
                     Image(systemName: "star")
                         .renderingMode(.original)
                     
-                    Text("4.6")
+                    Text(cardComponent.rating)
                 }
             }
             .font(.callout)
@@ -47,9 +48,9 @@ struct NearestRestaurantsCardView: View {
     }
 }
 
-struct NearestRestaurantsCardView_Previews: PreviewProvider {
-    static var previews: some View {
-        NearestRestaurantsCardView()
-            .preferredColorScheme(.dark)
-    }
-}
+//struct NearestRestaurantsCardView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        NearestRestaurantsCardView()
+//            .preferredColorScheme(.dark)
+//    }
+//}
