@@ -29,11 +29,7 @@ struct HeaderView: View {
             
             // MARK: Right side
             HStack {
-                Image(systemName: "bell.badge.fill")
-                    .foregroundColor(.white)
-                    .padding(10)
-                    .background(Color("AppGray"))
-                    .clipShape(Circle())
+                GeneralButton(icon: "bell.badge.fill")
                 
                 Image("User")
                     .resizable()
@@ -51,6 +47,7 @@ struct HeaderView_Previews: PreviewProvider {
     static var previews: some View {
         VStack {
             HeaderView()
+                .preferredColorScheme(.dark)
                 .padding(.horizontal)
             Spacer()
         }

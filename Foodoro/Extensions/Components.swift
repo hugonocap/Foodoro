@@ -34,6 +34,17 @@ struct CarouselComponent: View {
     }
 }
 
+struct GeneralButton: View {
+    var icon: String
+    var body: some View {
+        Image(systemName: icon)
+            .foregroundColor(.white)
+            .padding(10)
+            .background(Color("AppGray"))
+            .clipShape(Circle())
+    }
+}
+
 
 // MARK: Preview
 struct Components_Previews: PreviewProvider {
