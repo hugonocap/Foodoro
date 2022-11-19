@@ -20,15 +20,15 @@ struct CategoriesCarousel {
         // food and coffee
         Categories(image: "Food&Coffee",
                    category: "Food & Coffee",
-                   backgroundColor: .orange),
+                   backgroundColor: Color("AppOrange")),
         // groceries
         Categories(image: "Bread",
                    category: "Groceries",
-                   backgroundColor: .purple),
+                   backgroundColor: Color("AppPurple")),
         // chocolate
         Categories(image: "Chocolate",
                    category: "Chocolate & Diary Products",
-                   backgroundColor: .green)
+                   backgroundColor: Color("AppGreen"))
     ]
 }
 
@@ -37,26 +37,26 @@ struct AllCategories {
         // food and coffee
         Categories(image: "Food&Coffee",
                    category: "Food & Coffee",
-                   backgroundColor: .orange),
+                   backgroundColor: Color("AppOrange")),
         // groceries
         Categories(image: "Bread",
                    category: "Groceries",
-                   backgroundColor: .purple),
+                   backgroundColor: Color("AppPurple")),
         // chocolate
         Categories(image: "Chocolate",
                    category: "Chocolate & Diary Products",
-                   backgroundColor: .green),
+                   backgroundColor: Color("AppGreen")),
         // supermarket
         Categories(image: "Supermarket",
                    category: "Supermarket",
-                   backgroundColor: .blue),
+                   backgroundColor: Color("AppBlue")),
         // pharmacy
         Categories(image: "Pharmacy",
                    category: "Pharmacy",
-                   backgroundColor: .pink),
+                   backgroundColor: Color("AppRed")),
         // bakery
         Categories(image: "Bakery",
                    category: "Bakery",
-                   backgroundColor: .yellow)
+                   backgroundColor: Color("AppPink"))
     ]
 }
