@@ -13,14 +13,14 @@ struct CategoriesCardView: View {
         ZStack(alignment: .bottomTrailing) {
             ZStack(alignment: .topLeading) {
                 RoundedRectangle(cornerRadius: 20)
-                    .frame(width: 200, height: 220)
+                    .frame(width: 180, height: 200)
                     .foregroundColor(cardComponent.backgroundColor)
                 
                
                 Text(cardComponent.category)
                     .padding(22)
                     .font(.title2)
-                    .frame(width: 200, height: 100, alignment: .topLeading)
+                    .frame(width: 180, height: 100, alignment: .topLeading)
                     .lineLimit(2)
                     .multilineTextAlignment(.leading)
                     .fontWeight(.bold)
@@ -30,7 +30,7 @@ struct CategoriesCardView: View {
             Image(cardComponent.image)
                 .resizable()
                 .scaledToFill()
-                .frame(width: 200, height: 130)
+                .frame(width: 180, height: 130)
                 .offset(x: 50, y: 0)
                 .clipped()
             
