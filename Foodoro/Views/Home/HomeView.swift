@@ -10,25 +10,27 @@ import SwiftUI
 struct HomeView: View {
     @State var text: String
     var body: some View {
-        ZStack {
-            ScrollView(showsIndicators: false) {
-                VStack {
-                    VStack(spacing: 30) {
-                        HeaderView()
-                        SearchBar(text: $text)
-                        DiscountBannerView()
+        NavigationView {
+            ZStack {
+                ScrollView(showsIndicators: false) {
+                    VStack {
+                        VStack(spacing: 30) {
+                            HeaderView()
+                            SearchBar(text: $text)
+                            DiscountBannerView()
+                        }
+                        .padding()
+                        CategoriesView()
+                        NearestRestaurantsView()
+                        Spacer()
                     }
-                    .padding()
-                    CategoriesView()
-                    NearestRestaurantsView()
-                    Spacer()
                 }
-            }
+                
             
-        
+            }
+            .onTapGesture {
+                hideKeyboard()
         }
-        .onTapGesture {
-            hideKeyboard()
         }
     }
     

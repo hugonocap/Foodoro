@@ -10,8 +10,10 @@ import SwiftUI
 struct CategoriesView: View {
     var body: some View {
         VStack(spacing: 30) {
-            CarouselComponent(title: "Categories")
-                .padding(.horizontal)
+            NavigationLink(destination: AllCategoriesView()) {
+                CarouselComponent(title: "Categories")
+                    .padding(.horizontal)
+            }
             CategoriesCarouselView()
         }
     }

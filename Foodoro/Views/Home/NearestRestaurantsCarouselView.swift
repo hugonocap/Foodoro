@@ -13,7 +13,12 @@ struct NearestRestaurantsCarouselView: View {
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 25) {
                     ForEach(card, id: \.id) { component in
-                        NearestRestaurantsCardView(cardComponent: component)
+                        Button {
+                            //
+                        } label: {
+                            NearestRestaurantsCardView(cardComponent: component)
+                        }
+
                     }
                 }
                 .padding(.leading)

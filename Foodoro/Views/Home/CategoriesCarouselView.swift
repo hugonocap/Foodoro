@@ -13,7 +13,12 @@ struct CategoriesCarouselView: View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 20) {
                 ForEach(card, id: \.id) { component in
-                    CategoriesCardView(cardComponent: component)
+                    Button {
+                        //
+                    } label: {
+                        CategoriesCardView(cardComponent: component)
+                    }
+
                 }
             }
             .padding(.horizontal)

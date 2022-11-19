@@ -15,20 +15,18 @@ struct CarouselComponent: View {
         HStack {
             // MARK: Component name
             Text(title)
+                .foregroundColor(.white)
                 .font(.title2)
                 .fontWeight(.bold)
             
             Spacer()
             
             // MARK: See all button
-            Button {
-            } label: {
                 Text("See All")
                     .fontWeight(.light)
                     .foregroundColor(.white)
                     .opacity(0.8)
-            }
-
+        
         }
         .fontDesign(.rounded)
     }

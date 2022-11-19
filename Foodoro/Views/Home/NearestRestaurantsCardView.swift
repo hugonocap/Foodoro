@@ -20,6 +20,7 @@ struct NearestRestaurantsCardView: View {
                 
                 Text("\(cardComponent.destination) Mins Away")
                     .font(.caption)
+                    .foregroundColor(.white)
                     .fontWeight(.semibold)
                     .padding(7)
                     .background(.thickMaterial.opacity(0.6))
@@ -30,14 +31,16 @@ struct NearestRestaurantsCardView: View {
             HStack {
                 Text(cardComponent.name)
                     .lineLimit(1)
+                    .foregroundColor(.white)
                 
                 Spacer()
                 
                 HStack(spacing: 2) {
                     Image(systemName: "star")
                         .renderingMode(.original)
-                    
+        
                     Text(cardComponent.rating)
+                        .foregroundColor(.white)
                 }
             }
             .font(.callout)

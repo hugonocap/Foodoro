@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct AllCategoriesHeaderView: View {
+    @Environment(\.presentationMode) var presentationMode
     var body: some View {
+    
             HStack(spacing: 0) {
                     
                 Button {
-                    //
+                    presentationMode.wrappedValue.dismiss()
                 } label: {
                     GeneralButton(icon: "chevron.left")
                 }

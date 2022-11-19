@@ -20,6 +20,7 @@ struct CategoriesCardView: View {
                 Text(cardComponent.category)
                     .padding(22)
                     .font(.title2)
+                    .foregroundColor(.white)
                     .frame(width: 180, height: 100, alignment: .topLeading)
                     .lineLimit(2)
                     .multilineTextAlignment(.leading)

@@ -20,6 +20,7 @@ struct CategoryWideCardView: View {
                
                 Text(cardComponent.category)
                     .padding(22)
+                    .foregroundColor(.white)
                     .font(.title2)
                     .frame(width: 200, height: 100, alignment: .topLeading)
                     .lineLimit(2)
