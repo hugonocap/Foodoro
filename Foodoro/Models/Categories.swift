@@ -31,3 +31,32 @@ struct CategoriesCarousel {
                    backgroundColor: .green)
     ]
 }
+
+struct AllCategories {
+    static let categoryCard = [
+        // food and coffee
+        Categories(image: "Food&Coffee",
+                   category: "Food & Coffee",
+                   backgroundColor: .orange),
+        // groceries
+        Categories(image: "Bread",
+                   category: "Groceries",
+                   backgroundColor: .purple),
+        // chocolate
+        Categories(image: "Chocolate",
+                   category: "Chocolate & Diary Products",
+                   backgroundColor: .green),
+        // supermarket
+        Categories(image: "Supermarket",
+                   category: "Supermarket",
+                   backgroundColor: .blue),
+        // pharmacy
+        Categories(image: "Pharmacy",
+                   category: "Pharmacy",
+                   backgroundColor: .pink),
+        // bakery
+        Categories(image: "Bakery",
+                   category: "Bakery",
+                   backgroundColor: .yellow)
+    ]
+}
