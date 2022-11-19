@@ -8,16 +8,17 @@
 import SwiftUI
 
 struct CategoryWideCardView: View {
+    var cardComponent: Categories
     var body: some View {
         ZStack(alignment: .bottomTrailing) {
             ZStack(alignment: .topLeading) {
                 RoundedRectangle(cornerRadius: 20)
                     .frame(maxWidth: .infinity)
                     .frame(height: 180)
-                    .foregroundColor(.blue)
+                    .foregroundColor(cardComponent.backgroundColor)
                 
                
-                Text("Supermarket")
+                Text(cardComponent.category)
                     .padding(22)
                     .font(.title2)
                     .frame(width: 200, height: 100, alignment: .topLeading)
@@ -27,7 +28,7 @@ struct CategoryWideCardView: View {
             }
         
             
-            Image("Supermarket")
+            Image(cardComponent.image)
                 .resizable()
                 .scaledToFill()
                 .frame(width: 200, height: 180)
@@ -40,9 +41,9 @@ struct CategoryWideCardView: View {
     }
 }
 
-struct CategoryWideCardView_Previews: PreviewProvider {
-    static var previews: some View {
-        CategoryWideCardView()
-            .padding(.horizontal)
-    }
-}
+//struct CategoryWideCardView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        CategoryWideCardView()
+//            .padding(.horizontal)
+//    }
+//}
