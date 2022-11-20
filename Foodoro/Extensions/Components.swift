@@ -43,12 +43,24 @@ struct GeneralButton: View {
     }
 }
 
+struct DestinationCapsule: View {
+    var destination: Int
+    var body: some View {
+        Text("\(destination) mins away")
+            .font(.caption)
+            .foregroundColor(.white)
+            .fontWeight(.semibold)
+            .padding(7)
+            .background(.thickMaterial.opacity(0.6))
+            .clipShape(Capsule())
+    }
+}
+
 
 // MARK: Preview
 struct Components_Previews: PreviewProvider {
     static var previews: some View {
-        CarouselComponent(title: "Categories")
+        DestinationCapsule(destination: 2)
             .preferredColorScheme(.dark)
-            .padding(.horizontal)
     }
 }

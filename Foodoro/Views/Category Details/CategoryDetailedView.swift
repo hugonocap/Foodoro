@@ -9,12 +9,17 @@ import SwiftUI
 
 struct CategoryDetailedView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            CategoryDetailedHeaderView()
+            Spacer()
+        }
+        .padding(.horizontal)
     }
 }
 
 struct CategoryDetailedView_Previews: PreviewProvider {
     static var previews: some View {
         CategoryDetailedView()
+            .preferredColorScheme(.dark)
     }
 }

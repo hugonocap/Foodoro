@@ -18,13 +18,7 @@ struct NearestRestaurantsCardView: View {
                     .frame(width: 200, height: 260)
                     .cornerRadius(20)
                 
-                Text("\(cardComponent.destination) Mins Away")
-                    .font(.caption)
-                    .foregroundColor(.white)
-                    .fontWeight(.semibold)
-                    .padding(7)
-                    .background(.thickMaterial.opacity(0.6))
-                    .clipShape(Capsule())
+                DestinationCapsule(destination: cardComponent.destination)
                     .padding()
                 
             }
