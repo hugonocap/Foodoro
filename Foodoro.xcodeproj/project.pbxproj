@@ -10,6 +10,8 @@
 		D9223F43292A29D4001437BA /* CategoryDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9223F42292A29D4001437BA /* CategoryDetailedView.swift */; };
 		D9223F45292A29F4001437BA /* CategoryDetailedHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9223F44292A29F4001437BA /* CategoryDetailedHeaderView.swift */; };
 		D9223F47292A309F001437BA /* CategoryDetailedCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9223F46292A309F001437BA /* CategoryDetailedCardView.swift */; };
+		D93D256A292ABEAB00D304FA /* CategoryDetailedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93D2569292ABEAB00D304FA /* CategoryDetailedListView.swift */; };
+		D93D256C292ABF7F00D304FA /* Food&Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93D256B292ABF7F00D304FA /* Food&Coffee.swift */; };
 		D959923229257F22006BE1CD /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D959923129257F22006BE1CD /* SearchBar.swift */; };
 		D97E5670292945BC00D70E66 /* CategoryWideCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97E566F292945BC00D70E66 /* CategoryWideCardView.swift */; };
 		D9B856B629261D0E007FA8D0 /* DiscountBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B856B529261D0E007FA8D0 /* DiscountBannerView.swift */; };
@@ -35,6 +37,8 @@
 		D9223F42292A29D4001437BA /* CategoryDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailedView.swift; sourceTree = "<group>"; };
 		D9223F44292A29F4001437BA /* CategoryDetailedHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailedHeaderView.swift; sourceTree = "<group>"; };
 		D9223F46292A309F001437BA /* CategoryDetailedCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailedCardView.swift; sourceTree = "<group>"; };
+		D93D2569292ABEAB00D304FA /* CategoryDetailedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailedListView.swift; sourceTree = "<group>"; };
+		D93D256B292ABF7F00D304FA /* Food&Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Food&Coffee.swift"; sourceTree = "<group>"; };
 		D959923129257F22006BE1CD /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		D97E566F292945BC00D70E66 /* CategoryWideCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryWideCardView.swift; sourceTree = "<group>"; };
 		D9B856B529261D0E007FA8D0 /* DiscountBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountBannerView.swift; sourceTree = "<group>"; };
@@ -74,6 +78,7 @@
 				D9223F42292A29D4001437BA /* CategoryDetailedView.swift */,
 				D9223F44292A29F4001437BA /* CategoryDetailedHeaderView.swift */,
 				D9223F46292A309F001437BA /* CategoryDetailedCardView.swift */,
+				D93D2569292ABEAB00D304FA /* CategoryDetailedListView.swift */,
 			);
 			path = "Category Details";
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 			children = (
 				D9E944A92927776B00619E4B /* Categories.swift */,
 				D9E944B329281B1F00619E4B /* Restaurants.swift */,
+				D93D256B292ABF7F00D304FA /* Food&Coffee.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -252,6 +258,7 @@
 				D959923229257F22006BE1CD /* SearchBar.swift in Sources */,
 				D9E944AE2928110B00619E4B /* NearestRestaurantsView.swift in Sources */,
 				D9ECFD742926C90F00C78A98 /* CategoriesView.swift in Sources */,
+				D93D256A292ABEAB00D304FA /* CategoryDetailedListView.swift in Sources */,
 				D9E944B0292811C300619E4B /* NearestRestaurantsCardView.swift in Sources */,
 				D9E4A1752926D3D2001ED553 /* CategoriesCardView.swift in Sources */,
 				D9E944B429281B1F00619E4B /* Restaurants.swift in Sources */,
@@ -264,6 +271,7 @@
 				D9223F43292A29D4001437BA /* CategoryDetailedView.swift in Sources */,
 				D9CE9A8029290354003C7D82 /* AllCategoriesView.swift in Sources */,
 				D9E944AA2927776B00619E4B /* Categories.swift in Sources */,
+				D93D256C292ABF7F00D304FA /* Food&Coffee.swift in Sources */,
 				D9E4A1732926D37D001ED553 /* CategoriesCarouselView.swift in Sources */,
 				D97E5670292945BC00D70E66 /* CategoryWideCardView.swift in Sources */,
 				D9EFE8B4292570CF005F721D /* FoodoroApp.swift in Sources */,
