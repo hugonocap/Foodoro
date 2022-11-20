@@ -9,6 +9,7 @@ import SwiftUI
 
 struct CategoryDetailedCardView: View {
     @State private var isActive: Bool = false
+    var cardComponent: FoodAndCoffee
     var body: some View {
         Button {
             //
@@ -24,14 +25,14 @@ struct CategoryDetailedCardView: View {
                                 .cornerRadius(20)
                         }
                         
-                        Image("Mcdonalds")
+                        Image(cardComponent.image)
                             .resizable()
                             .scaledToFill()
                             .frame(width: .infinity, height: 120)
                             .clipped()
                         
                         HStack {
-                            Text("30 mins away")
+                            Text("\(cardComponent.destination) mins away")
                                 .font(.caption)
                                 .foregroundColor(.white)
                                 .fontWeight(.semibold)
@@ -63,18 +64,18 @@ struct CategoryDetailedCardView: View {
                         HStack {
                             VStack(alignment: .leading) {
                                 // name
-                                Text("McDonalds")
+                                Text(cardComponent.name)
                                     .font(.title3)
                                     .fontWeight(.bold)
                                 // rating
                                 HStack(spacing: 5) {
                                     HStack(spacing: 0) {
                                         Image(systemName: "star.fill")
-                                        Text("4.6")
+                                        Text(cardComponent.rating)
                                     }
                                     .foregroundColor(.yellow)
                                     
-                                    Text("(244)")
+                                    Text("(\(cardComponent.rateCount))")
                                         .opacity(0.6)
                                 }
                                 .fontWeight(.semibold)
@@ -82,7 +83,7 @@ struct CategoryDetailedCardView: View {
                             Spacer()
                             VStack(alignment: .trailing) {
                                 // fee price
-                                Text("$1.00")
+                                Text("$\(cardComponent.fee)")
                                     .fontWeight(.bold)
                                 // delivery fee text
                                 Text("Delivery Fee")
@@ -96,7 +97,7 @@ struct CategoryDetailedCardView: View {
                 }
                 
                 ZStack(alignment: .center) {
-                    Image("Mcdonalds")
+                    Image(cardComponent.logo)
                         .resizable()
                         .scaledToFill()
                         .frame(width: 84, height: 84)
@@ -113,12 +114,12 @@ struct CategoryDetailedCardView: View {
         }
     }
     
-    struct CategoryDetailedCardView_Previews: PreviewProvider {
-        static var previews: some View {
-            CategoryDetailedCardView()
-                .preferredColorScheme(.dark)
-                .padding(.horizontal)
-        }
-    }
 }
 
+//struct CategoryDetailedCardView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        CategoryDetailedCardView()
+//            .preferredColorScheme(.dark)
+//            .padding(.horizontal)
+//    }
+//}

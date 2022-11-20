@@ -45,7 +45,7 @@ struct FoodAndCoffeeItems {
                       fee: "1.30",
                       rateCount: 2945,
                       destination: 16),
-        // white castle
+        // White Castle
         FoodAndCoffee(image: "WhiteCastle",
                       logo: "WhiteCastleLogo",
                       name: "White Castle",

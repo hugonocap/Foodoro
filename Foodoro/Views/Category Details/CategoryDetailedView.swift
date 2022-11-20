@@ -11,8 +11,10 @@ struct CategoryDetailedView: View {
     var body: some View {
         VStack {
             CategoryDetailedHeaderView()
+            CategoryDetailedListView()
             Spacer()
         }
+        .edgesIgnoringSafeArea(.bottom)
         .padding(.horizontal)
     }
 }
