@@ -16,8 +16,8 @@ struct AllCategoriesView: View {
                         Grid(verticalSpacing: 20) {
                             // first row
                             GridRow {
-                                Button {
-                                    //
+                                NavigationLink {
+                                    CategoryDetailedView()
                                 } label: {
                                     CategoriesCardView(cardComponent: card[0])
                                         .gridColumnAlignment(.trailing)

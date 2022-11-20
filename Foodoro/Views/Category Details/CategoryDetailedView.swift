@@ -16,6 +16,7 @@ struct CategoryDetailedView: View {
         }
         .edgesIgnoringSafeArea(.bottom)
         .padding(.horizontal)
+        .navigationBarBackButtonHidden(true)
     }
 }
 

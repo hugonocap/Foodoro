@@ -11,12 +11,13 @@ struct CategoriesView: View {
     var body: some View {
         VStack(spacing: 30) {
             NavigationLink(destination: AllCategoriesView()) {
-                CarouselComponent(title: "Categories")
-                    .padding(.horizontal)
+                    CarouselComponent(title: "Categories")
+                        .padding(.horizontal)
+                }
+                CategoriesCarouselView()
             }
-            CategoriesCarouselView()
+           
         }
-    }
 }
 
 struct CategoriesView_Previews: PreviewProvider {
