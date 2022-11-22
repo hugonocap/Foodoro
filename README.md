@@ -8,7 +8,7 @@ This is a food ordering app where you can select a category and see nearby resta
 
 <p align="center">
 
-<img src="https://user-images.githubusercontent.com/94106586/203417285-85f07164-fc7e-4d60-b050-4ab0f865b4c1.png" width=590 height=1278>  
+<img src="https://user-images.githubusercontent.com/94106586/203425812-cbe59648-b662-40b5-a122-16b77584fb80.png" width=590 height=1278>  
 
 </p>
 
@@ -17,7 +17,7 @@ This is a food ordering app where you can select a category and see nearby resta
 
 <p align="center">
 
-<img src="https://user-images.githubusercontent.com/94106586/203417330-39b2bf26-d48c-4afd-8852-348b0a50b4a6.png" width=590 height=1278>
+<img src="https://user-images.githubusercontent.com/94106586/203425810-3c2240fc-90a1-4d89-b360-3d91038654af.png" width=590 height=1278>
 
 </p>
 
@@ -25,20 +25,13 @@ This is a food ordering app where you can select a category and see nearby resta
 <p>&nbsp;</p>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/94106586/203417328-e2b62275-cc45-4e9c-948f-38a5e1e099ff.png" width=590 height=1278>  
+<img src="https://user-images.githubusercontent.com/94106586/203425805-1c1c4232-e215-4eda-8eed-ce9217a4b175.png" width=590 height=1278>
 </p>
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/94106586/203422247-1ce87f4a-2a5a-4217-8ebc-34928638479f.png" width=590 height=1278>
-</p>
-
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/94106586/203422511-53e17c1e-114b-4382-a51c-83cc00e4a717.png" width=590 height=1278>
+<img src="https://user-images.githubusercontent.com/94106586/203425788-675f3a6d-4d25-4f9d-bb3c-9e7331e45814.png" width=590 height=1278>
 </p>
 
