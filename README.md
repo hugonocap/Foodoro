@@ -2,6 +2,7 @@
 
 ## About App
 I glad to introduce you Foodoro! This is a food ordering app where you can select a category and see nearby restaurants.
+I also used MVVM architecture to create this app.
 
 ## Screenshots
 
