@@ -4,6 +4,7 @@
 I glad to introduce you Foodoro! This is a food ordering app where you can select a category and see nearby restaurants.
 I also used Swift, SwiftUI and MVVM architecture to create this app.
 
+![damn4](https://user-images.githubusercontent.com/94106586/205631423-1c9e15f0-1c2b-4e5d-9497-20179c92da3a.png)
 
 
 ## Technologies
